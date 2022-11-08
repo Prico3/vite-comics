@@ -1,9 +1,19 @@
 <script>
-export default
+import headerAppVue from './components/headerApp.vue';
+export default {
+  data() {
+    return {
+
+    }
+  },
+  components: {
+    headerAppVue
+  }
+}
 </script>
 
 <template>
-  <h1>ciao</h1>
+  <headerAppVue />
 </template>
 
 <style lang="scss" scoped>
