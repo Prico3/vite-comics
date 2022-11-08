@@ -13,7 +13,7 @@ export default {}
 
 <style lang="scss" scoped>
 main {
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
     background-color: black;
 
