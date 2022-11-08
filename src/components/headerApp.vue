@@ -3,11 +3,31 @@ export default {}
 </script>
 
 <template>
-    <h1>ciao</h1>
+
+    <header>
+        <div class="header__container">
+            <div class="logo">
+                <img src="../assets/dc-logo.png" alt="Logo DC">
+            </div>
+
+            <div class="nav">
+                <ul>
+                    <li><a href="">ciao</a></li>
+                    <li><a href="">ciao</a></li>
+                    <li><a href="">ciao</a></li>
+                    <li><a href="">ciao</a></li>
+                    <li><a href="">ciao</a></li>
+                    <li><a href="">ciao</a></li>
+                    <li><a href="">ciao</a></li>
+                    <li><a href="">ciao</a></li>
+                    <li><a href="">ciao</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
 </template>
 
 <style lang="scss" scoped>
-h1 {
-    background-color: aquamarine;
-}
+
 </style>
