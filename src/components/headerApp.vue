@@ -29,5 +29,11 @@ export default {}
 </template>
 
 <style lang="scss" scoped>
+// ul{
 
+// }
+// a {
+//     text-decoration: none;
+//     color: black;
+// }
 </style>
