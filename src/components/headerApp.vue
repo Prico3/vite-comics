@@ -29,11 +29,27 @@ export default {}
 </template>
 
 <style lang="scss" scoped>
-// ul{
+header {
+    width: 70%;
+    margin: 0 auto;
+    padding: 1rem;
 
-// }
-// a {
-//     text-decoration: none;
-//     color: black;
-// }
+    // debug
+    border: 1px solid black;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    ul {
+        display: flex;
+        list-style-type: none;
+
+        li {
+            margin-left: 20px;
+        }
+    }
+}
 </style>
