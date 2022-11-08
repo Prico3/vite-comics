@@ -1,5 +1,7 @@
 <script>
 import headerAppVue from './components/headerApp.vue';
+import mainAppVue from './components/mainApp.vue';
+
 export default {
   data() {
     return {
@@ -7,13 +9,15 @@ export default {
     }
   },
   components: {
-    headerAppVue
+    headerAppVue,
+    mainAppVue,
   }
 }
 </script>
 
 <template>
   <headerAppVue />
+  <mainAppVue />
 </template>
 
 <style lang="scss">
