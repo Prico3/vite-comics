@@ -72,6 +72,21 @@ export default {}
         </div>
 
         <div class="section__bottom">
+            <div class="bottom__container flex">
+                <div class="sign-up">
+                    <button>SIGN-UP NOW!</button>
+                </div>
+
+                <div class="socials flex">
+                    <p> <a href="">FOLLOW US</a> </p>
+                    <img src="../assets/footer-facebook.png" alt="">
+                    <img src="../assets/footer-twitter.png" alt="">
+                    <img src="../assets/footer-youtube.png" alt="">
+                    <img src="../assets/footer-pinterest.png" alt="">
+                    <img src="../assets/footer-periscope.png" alt="">
+
+                </div>
+            </div>
 
         </div>
 
@@ -79,6 +94,7 @@ export default {}
 </template>
 
 <style lang="scss" scoped>
+// SECTION TOP
 .section__top {
     background-image: url('../assets/footer-bg.jpg');
 }
@@ -91,16 +107,17 @@ export default {}
 
 .left {
     width: 50%;
-    height: 400px;
     border: 1px solid green;
+    padding: 10px 0;
 
     ul {
         list-style-type: none;
         font-size: xx-small;
 
         li {
-            margin-top: 1rem;
+
             color: grey;
+            margin-bottom: 0.5rem;
 
             a {
                 color: inherit;
@@ -108,8 +125,9 @@ export default {}
         }
     }
 
-    li:first-child a {
+    li:first-child {
         color: white;
+        margin-top: 1rem;
     }
 
     .col {
@@ -122,10 +140,44 @@ export default {}
 
 .right {
     width: 50%;
-    height: 400px;
     border: 1px solid green;
     background-image: url('../assets/dc-logo-bg.png');
     background-repeat: no-repeat;
     background-position: 0;
+}
+
+// SECTION BOTTOM
+.section__bottom {
+    background-color: lightgrey;
+}
+
+
+.bottom__container {
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.sign-up {
+    button {
+        padding: 0.5rem;
+        border: 2px solid blue;
+        background-color: lightgrey;
+        color: white;
+    }
+}
+
+.socials {
+    align-items: center;
+
+    p {
+        color: blue;
+    }
+
+    * {
+        padding-left: 10px;
+    }
 }
 </style>
