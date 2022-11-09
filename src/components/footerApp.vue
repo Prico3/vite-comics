@@ -8,7 +8,59 @@ export default {}
         <div class="section__top">
             <div class="top__container">
 
-                <div class="left">
+                <div class="left flex">
+
+                    <div class="col">
+                        <ul>
+                            <li><a href="">DC COMICS</a></li>
+                            <li><a href="">DC COMICS</a></li>
+                            <li><a href="">DC COMICS</a></li>
+                            <li><a href="">DC COMICS</a></li>
+                            <li><a href="">DC COMICS</a></li>
+                            <li><a href="">DC COMICS</a></li>
+                            <li><a href="">DC COMICS</a></li>
+                            <li><a href="">DC COMICS</a></li>
+
+                        </ul>
+                        <ul>
+                            <li><a href="">DC COMICS</a></li>
+                            <li><a href="">DC COMICS</a></li>
+                            <li><a href="">DC COMICS</a></li>
+
+                        </ul>
+                    </div>
+
+                    <div class="col">
+                        <ul>
+                            <li><a href="">DC COMICS</a></li>
+                            <li><a href="">DC COMICS</a></li>
+                            <li><a href="">DC COMICS</a></li>
+                            <li><a href="">DC COMICS</a></li>
+                            <li><a href="">DC COMICS</a></li>
+                            <li><a href="">DC COMICS</a></li>
+                            <li><a href="">DC COMICS</a></li>
+                            <li><a href="">DC COMICS</a></li>
+                            <li><a href="">DC COMICS</a></li>
+                            <li><a href="">DC COMICS</a></li>
+                            <li><a href="">DC COMICS</a></li>
+                            <li><a href="">DC COMICS</a></li>
+                        </ul>
+
+                    </div>
+
+                    <div class="col">
+                        <ul>
+                            <li><a href="">DC COMICS</a></li>
+                            <li><a href="">DC COMICS</a></li>
+                            <li><a href="">DC COMICS</a></li>
+                            <li><a href="">DC COMICS</a></li>
+                            <li><a href="">DC COMICS</a></li>
+                            <li><a href="">DC COMICS</a></li>
+
+
+                        </ul>
+                    </div>
+
 
                 </div>
 
@@ -28,7 +80,6 @@ export default {}
 
 <style lang="scss" scoped>
 .section__top {
-    height: 400px;
     background-image: url('../assets/footer-bg.jpg');
 }
 
@@ -42,6 +93,31 @@ export default {}
     width: 50%;
     height: 400px;
     border: 1px solid green;
+
+    ul {
+        list-style-type: none;
+        font-size: xx-small;
+
+        li {
+            margin-top: 1rem;
+            color: grey;
+
+            a {
+                color: inherit;
+            }
+        }
+    }
+
+    li:first-child a {
+        color: white;
+    }
+
+    .col {
+        margin-right: 1rem;
+    }
+
+
+
 }
 
 .right {
