@@ -116,7 +116,7 @@ export default {}
 
         li {
 
-            color: grey;
+            color: $sales_bg_color;
             margin-bottom: 0.5rem;
 
             a {
